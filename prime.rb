@@ -1,8 +1,8 @@
 def prime?(integer)
   x = 2
-  while x < num
-    return false if num % n == 0
-    n += 1
+  while x < integer
+    return false if integer % x == 0
+    x += 1
   end
   true
 end
