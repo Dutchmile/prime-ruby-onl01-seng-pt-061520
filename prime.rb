@@ -8,4 +8,6 @@ def prime?(integer)
     while x < test_numbers_array.length
       return true if integer % n == 0
       x = x + 1
+    end
+  end
 end
