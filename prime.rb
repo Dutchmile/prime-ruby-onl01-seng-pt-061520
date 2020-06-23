@@ -1,13 +1,10 @@
 def prime?(integer)
-  if integer < 2
-    return false
-  else
-    test_numbers = (2..integer - 2)
-    test_numbers_array = (2..integer - 2).to_a
-    x = 2
-    while x < test_numbers_array.length
-      return true if integer % n == 0
-      x = x + 1
-    end
+  x = 2
+  while x < num
+    return false if num % n == 0
+    n += 1
   end
+  true
 end
+
+prime?(2)
