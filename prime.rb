@@ -3,8 +3,9 @@ def prime?(integer)
   while x < integer
     return false if integer % x == 0
     x += 1
+  else
+    true
   end
-  true
 end
 
 prime?(2)
