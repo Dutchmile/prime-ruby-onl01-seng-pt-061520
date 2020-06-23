@@ -1,9 +1,11 @@
 def prime?(integer)
-  integers = (-10..110000)
-  integers_array = (-10..110000).to_a
-  x = 0
-  while x < integers_array.length
-    integers_array.delete if {|x| x == x || x == 1}
-    integers_array[x].any?
-
+  if integer < 2
+    return false
+  else
+    test_numbers = (2..integer - 2)
+    test_numbers_array = (2..integer - 2).to_a
+    x = 2
+    while x < test_numbers_array.length
+      return true if integer % n == 0
+      x = x + 1
 end
